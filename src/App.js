@@ -1,10 +1,12 @@
 import React from "react";
+import Navigation from "./assets/components/Navigation/Navigation";
 
 function App() {
   return (
     <>
+      <Navigation />
       <div>hello</div>
-      <a>elo</a>
+      <p>elo</p>
     </>
   );
 }
