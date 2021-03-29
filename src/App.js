@@ -5,8 +5,6 @@ function App() {
   return (
     <>
       <Navigation />
-      <div>hello</div>
-      <p>elo</p>
     </>
   );
 }
