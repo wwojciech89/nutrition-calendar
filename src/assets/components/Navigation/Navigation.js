@@ -13,9 +13,9 @@ const Navigation = () => (
         <NavigationItem name="CHALLENGE" />
       </div>
       <div className={styles.person__wrapper}>
-        <div className={styles.picture} src={accounts[0].image} alt="user" />
+        <img className={styles.picture} src={accounts[0].image} alt="user" />
         <p className={styles.name}>Mariusz Wojtkiewicz</p>
-        <p>^</p>
+        <div className={styles.arrow}></div>
       </div>
     </div>
   </nav>
