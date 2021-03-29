@@ -1,6 +1,26 @@
 .header__wrapper {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 112px;
+  width: 1000px;
+}
+
+.progress__container {
+  width: 100%;
+  height: 100%;
+  background-color: cadetblue;
+}
+
+.week__container {
+  width: 100%;
+  height: 100%;
+  background-color: cyan;
+}
+
+.selector__container {
+  width: 100%;
+  height: 100%;
+  background-color: darkgreen;
 }
