@@ -14,7 +14,7 @@ const Navigation = () => (
       </div>
       <div className={styles.person__wrapper}>
         <img className={styles.picture} src={accounts[0].image} alt="user" />
-        <p className={styles.name}>Mariusz Wojtkiewicz</p>
+        <p className={styles.name}>{accounts[0].name}</p>
         <div className={styles.arrow}></div>
       </div>
     </div>
