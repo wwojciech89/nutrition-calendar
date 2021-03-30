@@ -1,23 +1,43 @@
 .column__container {
-  background-color: rgb(209, 59, 59);
+  background-color: #e7e7e7;
   width: 127px;
   height: 580px;
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
   border-radius: 5px 0 0 5px;
+  text-align: center;
+  font-size: 12px;
 }
 
-.breakfast {
+.grid__bigUpper {
   height: 142px;
   width: 100%;
-  border-bottom: 1px solid #bababa;
+  border-bottom: 2px solid #bababa;
   background-color: #e7e7e7;
 
   p {
-    font-size: 16px;
-    text-align: center;
     margin-top: calc(50% + 20px);
     color: #828282;
+  }
+}
+
+.grid__medium {
+  width: 100%;
+  height: 90px;
+  border-bottom: 2px solid #bababa;
+}
+
+.grid__bigLower {
+  height: 125px;
+  border-bottom: 2px solid #bababa;
+}
+
+.grid__small {
+  height: 33px;
+
+  p {
+    align-self: center;
   }
 }
