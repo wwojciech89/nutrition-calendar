@@ -1,7 +1,7 @@
 .column__container {
   background-color: #e7e7e7;
   width: 127px;
-  height: 580px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -25,12 +25,12 @@
 
 .grid__medium {
   width: 100%;
-  height: 90px;
+  height: 92px;
   border-bottom: 2px solid #bababa;
 }
 
 .grid__bigLower {
-  height: 125px;
+  height: 127px;
   border-bottom: 2px solid #bababa;
 }
 
