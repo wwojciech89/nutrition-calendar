@@ -1,0 +1,23 @@
+.column__container {
+  background-color: rgb(209, 59, 59);
+  width: 127px;
+  height: 580px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.breakfast {
+  height: 142px;
+  width: 100%;
+  border-bottom: 1px solid #bababa;
+  background-color: #e7e7e7;
+
+  p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: calc(50% + 20px);
+    color: #828282;
+  }
+}
