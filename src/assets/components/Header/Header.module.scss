@@ -16,7 +16,14 @@
 .week__container {
   width: 100%;
   height: 100%;
-  background-color: cyan;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  h1 {
+    font-size: 33px;
+    color: #ff801a;
+  }
 }
 
 .selector__container {
