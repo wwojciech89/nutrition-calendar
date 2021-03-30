@@ -44,7 +44,7 @@ const Header = () => (
         <Button direction={rightArrow} />
       </div>
       <div className={styles.selector__container}>
-        <p>SELECT YOUR PROTEN OPTIONS</p>
+        <p>SELECT YOUR PROTEIN OPTIONS</p>
         <div className={styles.icons__container}>
           <FoodSelector food={burgerGrey} />
           <FoodSelector food={donutGrey} />
