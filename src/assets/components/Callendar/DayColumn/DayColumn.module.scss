@@ -1,6 +1,6 @@
 .column__container {
   background-color: #e7e7e7;
-  width: 127px;
+  width: 128px;
   height: 580px;
   display: flex;
   flex-direction: column;
@@ -8,9 +8,15 @@
   justify-content: center;
   text-align: center;
   font-size: 12px;
+  border-right: 2px solid #bababa;
+
+  h2 {
+    font-size: 28px;
+    color: #c3cd4d;
+  }
 
   p {
-    margin: 0;
+    margin: 10px;
     padding: 0;
   }
 }
@@ -28,8 +34,14 @@
   border-bottom: 2px solid #bababa;
   background-color: #ffffff;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  p {
+    margin: 10px;
+    padding: 0;
+    width: 60%;
+  }
 }
 .grid__carb {
   height: 35px;
@@ -42,5 +54,8 @@
   border-top: 2px solid #bababa;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.checkCircle__image {
 }

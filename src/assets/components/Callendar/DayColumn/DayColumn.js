@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./DayColumn.module.scss";
 
-const DayColumn = () => (
+const DayColumn = ({ workout, check, checkCircle }) => (
   <>
     <div className={styles.column__container}>
       <div className={styles.grid__day}>
@@ -9,29 +9,34 @@ const DayColumn = () => (
       </div>
       <div className={styles.grid__meal}>
         <p>śniadanie</p>
-        <p>OK</p>
+        <img
+          src={checkCircle}
+          className={styles.checkCircle__image}
+          alt="checked"
+        />
       </div>
       <div className={styles.grid__meal}>
         <p>2 śniadanie</p>
-        <p>OK</p>
+        <img src={checkCircle} alt="checked" />
       </div>
       <div className={styles.grid__meal}>
-        <p>obiad</p>
-        <p>OK</p>
+        <p>obiada asdass sda da da sds</p>
+        <img src={checkCircle} alt="checked" />
       </div>
       <div className={styles.grid__meal}>
         <p>podwieczorek</p>
-        <p>OK</p>
+        <img src={checkCircle} alt="checked" />
       </div>
       <div className={styles.grid__meal}>
         <p>kolacja</p>
-        <p>OK</p>
+        <img src={checkCircle} alt="checked" />
       </div>
       <div className={styles.grid__carb}>
         <p>LOW-CARB</p>
       </div>
       <div className={styles.grid__training}>
-        <p>hantle</p>
+        <img src={workout} alt="workout" />
+        <img src={check} alt="checked" />
       </div>
     </div>
   </>
