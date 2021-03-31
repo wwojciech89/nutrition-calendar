@@ -1,7 +1,7 @@
 .column__container {
   background-color: #e7e7e7;
   width: 127px;
-  height: 100%;
+  height: 580px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -11,23 +11,36 @@
 
   p {
     margin: 0;
+    padding: 0;
   }
 }
 
 .grid__day {
-  height: 52.4px;
+  height: 52px;
   background-color: #ffffff;
   border-bottom: 2px solid #bababa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .grid__meal {
-  height: 93.3px;
+  height: 92px;
   border-bottom: 2px solid #bababa;
   background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .grid__carb {
   height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .grid__training {
+  height: 35px;
   border-top: 2px solid #bababa;
-  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

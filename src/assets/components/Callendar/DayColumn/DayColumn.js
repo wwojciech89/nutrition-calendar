@@ -5,7 +5,7 @@ const DayColumn = () => (
   <>
     <div className={styles.column__container}>
       <div className={styles.grid__day}>
-        <p>DAY 1</p>
+        <h2>DAY 1</h2>
       </div>
       <div className={styles.grid__meal}>
         <p>śniadanie</p>
