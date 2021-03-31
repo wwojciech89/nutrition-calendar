@@ -1,0 +1,53 @@
+.column__container {
+  background-color: white;
+  width: 124px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 0 10px 10px 0;
+
+  h2 {
+    font-size: 28px;
+    color: #c3cd4d;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+.grid__day {
+  height: 52px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #bababa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 10px 0 0;
+}
+
+.grid__main {
+  height: 458px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid__print {
+  height: 71px;
+  background-color: #e7e7e7;
+  border-radius: 0 0 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 16px;
+    color: #bababa;
+    margin-left: 8px;
+  }
+}

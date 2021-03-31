@@ -27,7 +27,7 @@ const DayColumn = ({ workout, check, checkCircle }) => (
         <p>podwieczorek</p>
         <img src={checkCircle} alt="checked" />
       </div>
-      <div className={styles.grid__meal}>
+      <div className={styles.grid__mealSpecial}>
         <p>kolacja</p>
         <img src={checkCircle} alt="checked" />
       </div>
