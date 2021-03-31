@@ -6,8 +6,17 @@
   display: flex;
   height: 35px;
   background-color: white;
+  margin-top: 5px;
 
   .image__container {
+    background-image: url("../../../icons/apple.png");
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-bottom: 4px;
+    margin-left: 8px;
   }
 
   .text {
@@ -17,11 +26,12 @@
   }
 
   .arrow__container {
-    background-image: url("../../../icons/arrow-right.png");
+    background-image: url("../../../icons/arrow-right-add.png");
     width: 16px;
     height: 16px;
     align-self: center;
     margin-bottom: 2px;
     color: white;
+    margin-right: 10px;
   }
 }
