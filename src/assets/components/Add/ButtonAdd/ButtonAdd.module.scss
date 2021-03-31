@@ -1,0 +1,23 @@
+a {
+  border: 1px solid #bababa;
+  border-radius: 5px;
+  color: #a4a4a4;
+  text-decoration: none;
+  display: flex;
+  height: 35px;
+  background-color: white;
+
+  p {
+    font-size: 40px;
+    margin: 10px 7px;
+    align-self: center;
+  }
+
+  div {
+    background-image: url("../../../icons/arrow-right.png");
+    width: 16px;
+    height: 16px;
+    align-self: center;
+    margin-bottom: 3px;
+  }
+}

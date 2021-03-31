@@ -1,0 +1,23 @@
+.shortAdd__container {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: column;
+  border-right: 1px solid #bababa;
+  margin-left: 50px;
+
+  h3 {
+    margin: 11px auto 0;
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.button__container {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
