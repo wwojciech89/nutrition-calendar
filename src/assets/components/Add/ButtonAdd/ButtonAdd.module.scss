@@ -1,4 +1,4 @@
-a {
+.wrapper {
   border: 1px solid #bababa;
   border-radius: 5px;
   color: #a4a4a4;
@@ -7,17 +7,21 @@ a {
   height: 35px;
   background-color: white;
 
-  p {
-    font-size: 40px;
+  .image__container {
+  }
+
+  .text {
+    font-size: 16px;
     margin: 10px 7px;
     align-self: center;
   }
 
-  div {
+  .arrow__container {
     background-image: url("../../../icons/arrow-right.png");
     width: 16px;
     height: 16px;
     align-self: center;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
+    color: white;
   }
 }
