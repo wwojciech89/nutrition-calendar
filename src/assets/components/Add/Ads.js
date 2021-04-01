@@ -1,15 +1,21 @@
 import React from "react";
 import styles from "./Ads.module.scss";
-import ShortAdd from "./ShortAdd/ShortAd";
+import ShortAd from "./ShortAdd/ShortAd";
+import ads from "../../data/advertisement";
 
-const Ads = () => (
-  <>
-    <div className={styles.add__container}>
-      <ShortAdd />
-      <ShortAdd />
-      <ShortAdd />
-    </div>
-  </>
-);
+const Ads = () => {
+  let mappedAdd = ads.map((el) => {
+    return (
+      <>
+        <ShortAd data={el} />
+      </>
+    );
+  });
 
+  return (
+    <>
+      <div className={styles.add__container}>{mappedAdd}</div>
+    </>
+  );
+};
 export default Ads;
