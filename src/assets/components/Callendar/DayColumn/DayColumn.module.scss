@@ -69,8 +69,10 @@
   border-top: 2px solid #bababa;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.checkCircle__image {
+.check {
+  margin-left: 10px;
+  width: 15px;
 }

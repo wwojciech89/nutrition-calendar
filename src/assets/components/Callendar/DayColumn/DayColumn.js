@@ -9,11 +9,7 @@ const DayColumn = ({ workout, check, checkCircle }) => (
       </div>
       <div className={styles.grid__meal}>
         <p>śniadanie</p>
-        <img
-          src={checkCircle}
-          className={styles.checkCircle__image}
-          alt="checked"
-        />
+        <img src={checkCircle} alt="checked" />
       </div>
       <div className={styles.grid__meal}>
         <p>2 śniadanie</p>
@@ -36,7 +32,7 @@ const DayColumn = ({ workout, check, checkCircle }) => (
       </div>
       <div className={styles.grid__training}>
         <img src={workout} alt="workout" />
-        <img src={check} alt="checked" />
+        <img src={check} alt="checked" className={styles.check} />
       </div>
     </div>
   </>
