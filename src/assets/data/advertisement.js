@@ -1,4 +1,4 @@
-const add = [
+const ads = [
   {
     title: "Running out of products?",
     text:

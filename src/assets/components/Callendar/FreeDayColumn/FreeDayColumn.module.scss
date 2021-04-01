@@ -34,7 +34,20 @@
   background-color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  p {
+    transform: rotate(-90deg);
+    font-size: 34px;
+    width: 300px;
+    margin-bottom: -100px;
+    color: #bababa;
+  }
+
+  .smile {
+    margin-bottom: -50px;
+  }
 }
 
 .grid__print {

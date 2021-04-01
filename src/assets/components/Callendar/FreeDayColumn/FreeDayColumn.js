@@ -9,7 +9,7 @@ const FreeDayColumn = ({ smile, printer }) => (
       </div>
       <div className={styles.grid__main}>
         <p>GUILT-FREE DAY</p>
-        <img src={smile} alt="smile" />
+        <img src={smile} alt="smile" className={styles.smile} />
       </div>
       <div className={styles.grid__print}>
         <img src={printer} alt="printer" />

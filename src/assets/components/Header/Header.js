@@ -46,11 +46,11 @@ const Header = () => (
       <div className={styles.selector__container}>
         <p>SELECT YOUR PROTEIN OPTIONS</p>
         <div className={styles.icons__container}>
-          <FoodSelector food={burgerGrey} />
-          <FoodSelector food={donutGrey} />
-          <FoodSelector food={fishGrey} />
-          <FoodSelector food={pizzaGrey} />
-          <FoodSelector food={riceGrey} />
+          <FoodSelector inactive={burgerGrey} active={burgerGreen} />
+          <FoodSelector inactive={donutGrey} active={donutGreen} />
+          <FoodSelector inactive={fishGrey} active={fishGreen} />
+          <FoodSelector inactive={pizzaGrey} active={pizzaGreen} />
+          <FoodSelector inactive={riceGrey} active={riceGreen} />
         </div>
       </div>
     </div>
