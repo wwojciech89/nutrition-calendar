@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./ShortAdd.module.scss";
-import ButtonAdd from "../ButtonAdd/ButtonAdd";
+import styles from "./ShortAd.module.scss";
+import ButtonAdd from "../ButtonAd/ButtonAd";
 
-const ShortAdd = () => (
+const ShortAds = () => (
   <>
     <div className={styles.shortAdd__container}>
       <h3>Running out of products?</h3>
@@ -16,4 +16,4 @@ const ShortAdd = () => (
   </>
 );
 
-export default ShortAdd;
+export default ShortAds;

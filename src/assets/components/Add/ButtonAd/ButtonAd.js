@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./ButtonAdd.module.scss";
+import styles from "./ButtonAd.module.scss";
 
-const ButtonAdd = ({ text }) => (
+const ButtonAd = ({ text }) => (
   <>
     <a href="/" className={styles.wrapper}>
       <div className={styles.image__container}></div>
@@ -11,4 +11,4 @@ const ButtonAdd = ({ text }) => (
   </>
 );
 
-export default ButtonAdd;
+export default ButtonAd;

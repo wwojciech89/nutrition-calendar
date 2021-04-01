@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Add.module.scss";
-import ShortAdd from "./ShortAdd/ShortAdd";
+import styles from "./Ads.module.scss";
+import ShortAdd from "./ShortAdd/ShortAd";
 
-const Add = () => (
+const Ads = () => (
   <>
     <div className={styles.add__container}>
       <ShortAdd />
@@ -12,4 +12,4 @@ const Add = () => (
   </>
 );
 
-export default Add;
+export default Ads;
