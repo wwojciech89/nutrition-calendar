@@ -10,20 +10,36 @@ import checkCircle from "../../icons/check-circle-orange.png";
 import smile from "../../icons/smile-grey.png";
 import printer from "../../icons/printer-grey.png";
 
-const Callendar = () => (
-  <>
-    <div className={styles.callendar__container}>
-      <TitleColumn />
-      <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-      <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-      <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-      <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-      <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-      <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-      <FreeDayColumn printer={printer} smile={smile} />
-      {/* tu będą 3 rodzaje column/ tytułowa/ robocza/ i dnia 7 */}
-    </div>
-  </>
-);
+import weeks from "../../data/weeks";
+
+const Callendar = () => {
+  let createWeek = weeks[0].map((el) => {
+    return (
+      <DayColumn
+        workout={workout}
+        check={check}
+        checkCircle={checkCircle}
+        data={el}
+      />
+    );
+  });
+
+  return (
+    <>
+      <div className={styles.callendar__container}>
+        <TitleColumn />
+        {createWeek}
+        {/* <p>{weeks[0][0].day}</p>
+        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
+        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
+        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
+        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
+        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
+        <DayColumn workout={workout} check={check} checkCircle={checkCircle} /> */}
+        <FreeDayColumn printer={printer} smile={smile} />
+      </div>
+    </>
+  );
+};
 
 export default Callendar;

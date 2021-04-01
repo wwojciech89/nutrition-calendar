@@ -3,7 +3,13 @@ const ads = [
     title: "Running out of products?",
     text:
       "Lorem ipsum dolar sit amet, consect turadipscing elit. Integer aliquet.",
-    button: true,
+    buttons: [
+      {
+        type: "apple",
+        text: "Buy Now",
+        url: "#",
+      },
+    ],
   },
   {
     title: "Bod-e Trainer in your pocket",

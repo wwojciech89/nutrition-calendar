@@ -78,11 +78,11 @@ const weeks = [
       dietType: "high-carb",
       workoutDone: true,
     },
-    {
-      day: "day 7",
-      guiltyFreeday: true,
-      print: true,
-    },
+    // {
+    //   day: "day 7",
+    //   guiltyFreeday: true,
+    //   print: true,
+    // },
   ],
   [
     {
@@ -1020,3 +1020,5 @@ const weeks = [
     },
   ],
 ];
+
+export default weeks;
