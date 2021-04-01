@@ -18,7 +18,7 @@ const ads = [
       text: "iOS",
       url: "#",
     },
-    button: {
+    button2: {
       type: "android",
       text: "Android",
       url: "#",

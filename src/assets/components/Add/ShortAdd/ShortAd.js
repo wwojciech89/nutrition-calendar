@@ -9,7 +9,7 @@ const ShortAd = ({ data }) => {
         <h3>{data.title}</h3>
         <p>{data.text}</p>
         <div className={styles.button__container}>
-          if({data.button}) {<ButtonAdd button={data.button} />}
+          <ButtonAdd button={data.button} />
         </div>
       </div>
     </>
