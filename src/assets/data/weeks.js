@@ -3,7 +3,7 @@ const weeks = [
     {
       day: "day 1",
       breakfast: { text: "Bod-e Shake", checked: false },
-      secoundBreakfast: { text: "Ham", checked: false },
+      secoundBreakfast: { text: "Ham and Swiss Roll Ups", checked: false },
       dinner: { text: "Turket Melt", checked: false },
       snack: {
         text: "Bod-e Burn With Mozarella and Tomato Slices",
@@ -32,7 +32,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -71,7 +71,7 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },

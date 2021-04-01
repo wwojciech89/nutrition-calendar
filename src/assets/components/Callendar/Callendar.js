@@ -13,7 +13,7 @@ import printer from "../../icons/printer-grey.png";
 import weeks from "../../data/weeks";
 
 const Callendar = () => {
-  let createWeek = weeks[0].map((el) => {
+  let mappedWeek = weeks[0].map((el) => {
     return (
       <DayColumn
         workout={workout}
@@ -28,14 +28,7 @@ const Callendar = () => {
     <>
       <div className={styles.callendar__container}>
         <TitleColumn />
-        {createWeek}
-        {/* <p>{weeks[0][0].day}</p>
-        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-        <DayColumn workout={workout} check={check} checkCircle={checkCircle} />
-        <DayColumn workout={workout} check={check} checkCircle={checkCircle} /> */}
+        {mappedWeek}
         <FreeDayColumn printer={printer} smile={smile} />
       </div>
     </>
