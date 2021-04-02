@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nutrition-calendar/static/css/main.d816284c.chunk.css",
+    "main.js": "/nutrition-calendar/static/js/main.26011b92.chunk.js",
+    "main.js.map": "/nutrition-calendar/static/js/main.26011b92.chunk.js.map",
+    "runtime-main.js": "/nutrition-calendar/static/js/runtime-main.b155baf0.js",
+    "runtime-main.js.map": "/nutrition-calendar/static/js/runtime-main.b155baf0.js.map",
+    "static/js/2.197f01d3.chunk.js": "/nutrition-calendar/static/js/2.197f01d3.chunk.js",
+    "static/js/2.197f01d3.chunk.js.map": "/nutrition-calendar/static/js/2.197f01d3.chunk.js.map",
+    "index.html": "/nutrition-calendar/index.html",
+    "static/css/main.d816284c.chunk.css.map": "/nutrition-calendar/static/css/main.d816284c.chunk.css.map",
+    "static/js/2.197f01d3.chunk.js.LICENSE.txt": "/nutrition-calendar/static/js/2.197f01d3.chunk.js.LICENSE.txt",
+    "static/media/mariusz.c2b47bcf.jpg": "/nutrition-calendar/static/media/mariusz.c2b47bcf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b155baf0.js",
+    "static/js/2.197f01d3.chunk.js",
+    "static/css/main.d816284c.chunk.css",
+    "static/js/main.26011b92.chunk.js"
+  ]
+}
