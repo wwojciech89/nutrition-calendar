@@ -6,8 +6,6 @@ import workoutOrange from "../../../icons/ball-orange.png";
 import workoutGrey from "../../../icons/ball-grey.png";
 
 const DayColumn = ({ check, checkCircle, data }) => {
-  console.log(data.workoutDone);
-
   const [workoutStatus, setWorkoutStatus] = useState(data.workoutDone);
 
   const handleClick = () => {

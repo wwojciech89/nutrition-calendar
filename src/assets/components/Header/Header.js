@@ -20,11 +20,18 @@ import riceGreen from "../../icons/rice-green.png";
 import dot from "../../icons/dot-grey.png";
 
 const Header = ({ week, setWeek }) => {
+  console.log(week);
   const data = useContext(DataContext);
 
   const handlePreviousWeekClick = () => {
     if (week > 0) {
-      setWeek(data[week] - 1);
+      setWeek(week - 1);
+    }
+  };
+
+  const handleNextWeekClick = () => {
+    if (week < data.length - 1) {
+      setWeek(week + 1);
     }
   };
 
@@ -48,17 +55,9 @@ const Header = ({ week, setWeek }) => {
         </div>
       </div>
       <div className={styles.week__container}>
-        <Button
-          direction={leftArrow}
-          handleNextWeekClick={handlePreviousWeekClick}
-        />
+        <Button directionIcon={leftArrow} onClick={handlePreviousWeekClick} />
         <h1>Week {week + 1}</h1>
-        <Button
-          direction={rightArrow}
-          handleClick={() => {
-            setWeek(week + 1);
-          }}
-        />
+        <Button directionIcon={rightArrow} onClick={handleNextWeekClick} />
       </div>
       <div className={styles.selector__container}>
         <p>SELECT YOUR PROTEIN OPTIONS</p>
