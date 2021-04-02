@@ -11,7 +11,7 @@ const weeks = [
       },
       supper: { text: "Turkey Melt", checked: false },
       dietType: "low-carb",
-      workoutDone: true,
+      workoutDone: false,
     },
     {
       day: "day 2",
@@ -24,7 +24,7 @@ const weeks = [
       },
       supper: { text: "Turkey Melt", checked: false },
       dietType: "low-carb",
-      workoutDone: true,
+      workoutDone: false,
     },
     {
       day: "day 3",
@@ -37,7 +37,7 @@ const weeks = [
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
-      workoutDone: true,
+      workoutDone: false,
     },
     {
       day: "day 4",
@@ -50,7 +50,7 @@ const weeks = [
       },
       supper: { text: "Turkey Melt", checked: false },
       dietType: "low-carb",
-      workoutDone: true,
+      workoutDone: false,
     },
     {
       day: "day 5",
@@ -63,7 +63,7 @@ const weeks = [
       },
       supper: { text: "Turkey Melt", checked: false },
       dietType: "low-carb",
-      workoutDone: true,
+      workoutDone: false,
     },
     {
       day: "day 6",
@@ -76,7 +76,7 @@ const weeks = [
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
-      workoutDone: true,
+      workoutDone: false,
     },
   ],
   [

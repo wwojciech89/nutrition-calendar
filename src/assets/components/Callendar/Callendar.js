@@ -5,7 +5,6 @@ import DayColumn from "./DayColumn/DayColumn";
 import FreeDayColumn from "./FreeDayColumn/FreeDayColumn";
 import Header from "../Header/Header";
 
-import workout from "../../icons/ball-grey.png";
 import check from "../../icons/check-orange.png";
 import checkCircle from "../../icons/check-circle-orange.png";
 import smile from "../../icons/smile-grey.png";
@@ -20,7 +19,6 @@ const Callendar = () => {
     return (
       <DayColumn
         key={index}
-        workout={workout}
         check={check}
         checkCircle={checkCircle}
         data={el}
