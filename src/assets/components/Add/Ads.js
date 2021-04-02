@@ -4,12 +4,8 @@ import ShortAd from "./ShortAdd/ShortAd";
 import ads from "../../data/advertisement";
 
 const Ads = () => {
-  let mappedAdd = ads.map((el) => {
-    return (
-      <>
-        <ShortAd data={el} />
-      </>
-    );
+  let mappedAdd = ads.map((el, index) => {
+    return <ShortAd data={el} key={index} />;
   });
 
   return (

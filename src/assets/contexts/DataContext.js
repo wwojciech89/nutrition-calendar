@@ -8,6 +8,6 @@ export const DataContextProvider = ({ children }) => {
 
   useEffect(() => {
     setData(weeks);
-  }, [weeks]);
+  }, []);
   return <DataContext.Provider value={data}>{children}</DataContext.Provider>;
 };

@@ -16,9 +16,10 @@ const Callendar = () => {
   const data = useContext(DataContext);
   const [week, setWeek] = useState(0);
 
-  const mappedWeek = data[week]?.map((el) => {
+  const mappedWeek = data[week]?.map((el, index) => {
     return (
       <DayColumn
+        key={index}
         workout={workout}
         check={check}
         checkCircle={checkCircle}

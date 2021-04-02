@@ -22,7 +22,13 @@ import dot from "../../icons/dot-grey.png";
 const Header = ({ week, setWeek }) => {
   const data = useContext(DataContext);
 
-  console.log(data.length);
+  console.log(data[week]);
+
+  const handlePreviousWeekClick = () => {
+    if (week > 0) {
+      setWeek(data[week] - 1);
+    }
+  };
 
   return (
     <div className={styles.header__wrapper}>
@@ -46,9 +52,7 @@ const Header = ({ week, setWeek }) => {
       <div className={styles.week__container}>
         <Button
           direction={leftArrow}
-          handleClick={() => {
-            setWeek(week - 1);
-          }}
+          handleNextWeekClick={handlePreviousWeekClick}
         />
         <h1>Week {week + 1}</h1>
         <Button

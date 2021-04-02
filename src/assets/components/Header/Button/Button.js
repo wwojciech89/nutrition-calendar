@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Button.module.scss";
 
-const Button = ({ direction, handleClick }) => (
+const Button = ({ direction, handleNextWeekClick }) => (
   <button
-    onClick={handleClick}
+    onClick={handleNextWeekClick}
     type="button"
     className={styles.button__wrapper}
   >
