@@ -15,7 +15,7 @@ const weeks = [
     },
     {
       day: "day 2",
-      breakfast: { text: "Bod-e Shake", checked: false },
+      breakfast: { text: "Bod-e Shake", checked: true },
       secoundBreakfast: { text: "Ham and Swiss Roll Ups", checked: false },
       dinner: { text: "Turkey Melt", checked: false },
       snack: {
@@ -28,7 +28,7 @@ const weeks = [
     },
     {
       day: "day 3",
-      breakfast: { text: "Bod-e Shake", checked: false },
+      breakfast: { text: "Bod-e Shake", checked: true },
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
