@@ -8,7 +8,7 @@ const WeekButton = ({ number, week }) => {
   console.log(number);
   console.log(week + 1);
   const pointWeek = () => {
-    if (number == week + 1) {
+    if (parseInt(number) === week + 1) {
       return dotWhite;
     } else if (number < week + 1) {
       return dotGreen;
