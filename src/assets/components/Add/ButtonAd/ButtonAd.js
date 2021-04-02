@@ -12,8 +12,6 @@ const ButtonAd = ({ button }) => {
       return android;
     } else if (button.type === "apple") {
       return apple;
-    } else {
-      return;
     }
   };
   console.log(icon);
@@ -22,7 +20,7 @@ const ButtonAd = ({ button }) => {
       <a href={button.url} className={styles.wrapper}>
         <div
           className={styles.image__container}
-          style={{ backgroundImage: `url(${icon})` }}
+          style={{ backgroundImage: `url(${icon()})` }}
         ></div>
         <p className={styles.text}>{button.text}</p>
         <div className={styles.arrow__container}></div>
