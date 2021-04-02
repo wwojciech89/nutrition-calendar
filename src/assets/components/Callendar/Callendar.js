@@ -25,13 +25,11 @@ const Callendar = () => {
   });
 
   return (
-    <DataContext.Provider value={data}>
-      <div className={styles.callendar__container}>
-        <TitleColumn />
-        {mappedWeek}
-        <FreeDayColumn printer={printer} smile={smile} />
-      </div>
-    </DataContext.Provider>
+    <div className={styles.callendar__container}>
+      <TitleColumn />
+      {mappedWeek}
+      <FreeDayColumn printer={printer} smile={smile} />
+    </div>
   );
 };
 
