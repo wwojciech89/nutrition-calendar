@@ -9,6 +9,9 @@
   text-align: center;
   font-size: 12px;
   border-right: 2px solid #bababa;
+
+  border-top: 2px solid white;
+  border-bottom: 2px solid #e7e7e7;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 
@@ -30,11 +33,11 @@
 }
 
 .column__container:hover {
-  border-right: 2px solid orange;
+  border: 2px solid orange;
 }
 
 .grid__day {
-  height: 52px;
+  height: 50px;
   background-color: #ffffff;
   border-bottom: 2px solid #bababa;
   display: flex;
@@ -77,7 +80,7 @@
   justify-content: center;
 }
 .grid__training {
-  height: 35px;
+  height: 33px;
   border-top: 2px solid #bababa;
   display: flex;
   align-items: center;
