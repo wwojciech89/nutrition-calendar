@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Callendar.module.scss";
 import TitleColumn from "./TitleColumn/TitleColumn";
 import DayColumn from "./DayColumn/DayColumn";
@@ -13,7 +13,13 @@ import printer from "../../icons/printer-grey.png";
 import weeks from "../../data/weeks";
 
 const Callendar = () => {
-  let mappedWeek = weeks[0].map((el) => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    setData(weeks);
+  }, [weeks]);
+
+  const mappedWeek = data[0]?.map((el) => {
     return (
       <DayColumn
         workout={workout}
@@ -25,13 +31,11 @@ const Callendar = () => {
   });
 
   return (
-    <>
-      <div className={styles.callendar__container}>
-        <TitleColumn />
-        {mappedWeek}
-        <FreeDayColumn printer={printer} smile={smile} />
-      </div>
-    </>
+    <div className={styles.callendar__container}>
+      <TitleColumn />
+      {mappedWeek}
+      <FreeDayColumn printer={printer} smile={smile} />
+    </div>
   );
 };
 
