@@ -5,6 +5,43 @@
   flex-direction: column;
   border-right: 1px solid #bababa;
   margin-left: 50px;
+  padding-right: 60px;
+
+  h3 {
+    margin: 11px auto 0;
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.shortAdd__containerLeft {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-direction: column;
+  border-right: 1px solid #bababa;
+  padding-right: 40px;
+
+  h3 {
+    margin: 11px auto 0;
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.shortAdd__containerRight {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: column;
+  border-right: 1px solid #f9f9f9;
+  margin-left: 50px;
 
   h3 {
     margin: 11px auto 0;

@@ -8,6 +8,7 @@ const ads = [
       text: "Buy Now",
       url: "#",
     },
+    position: "left",
   },
   {
     title: "Bod-e Trainer in your pocket",
@@ -33,6 +34,7 @@ const ads = [
       text: "Buy Now",
       url: "#",
     },
+    position: "right",
   },
 ];
 

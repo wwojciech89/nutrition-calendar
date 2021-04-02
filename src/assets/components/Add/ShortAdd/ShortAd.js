@@ -15,9 +15,19 @@ const ShortAd = ({ data }) => {
     }
   };
 
+  const specifyPosition = () => {
+    if (data.position === "left") {
+      return styles.shortAdd__containerLeft;
+    } else if (data.position === "right") {
+      return styles.shortAdd__containerRight;
+    } else {
+      return styles.shortAdd__container;
+    }
+  };
+
   return (
     <>
-      <div className={styles.shortAdd__container}>
+      <div className={specifyPosition()}>
         <h3>{data.title}</h3>
         <p>{data.text}</p>
         <div className={styles.button__container}>
