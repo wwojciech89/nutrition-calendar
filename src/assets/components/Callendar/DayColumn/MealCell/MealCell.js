@@ -15,7 +15,9 @@ const MealCell = ({ text, checkCircle, checked, dueStyle }) => {
   return (
     <div style={dueStyle} className={styles.grid__meal} onClick={handleClick}>
       <p>{text}</p>
-      <img src={checkCircle} alt="checked" className={styles.checkCircle} />
+      {done && (
+        <img src={checkCircle} alt="checked" className={styles.checkCircle} />
+      )}
     </div>
   );
 };

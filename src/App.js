@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <Navigation />
-      <Header />
       <DataContextProvider>
         <Callendar />
       </DataContextProvider>

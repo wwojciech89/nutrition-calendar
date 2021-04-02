@@ -15,7 +15,7 @@ const weeks = [
     },
     {
       day: "day 2",
-      breakfast: { text: "Bod-e Shake", checked: true },
+      breakfast: { text: "Bod-e Shake", checked: false },
       secoundBreakfast: { text: "Ham and Swiss Roll Ups", checked: false },
       dinner: { text: "Turkey Melt", checked: false },
       snack: {
@@ -28,7 +28,7 @@ const weeks = [
     },
     {
       day: "day 3",
-      breakfast: { text: "Bod-e Shake", checked: true },
+      breakfast: { text: "Bod-e Shake", checked: false },
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
@@ -78,11 +78,6 @@ const weeks = [
       dietType: "high-carb",
       workoutDone: true,
     },
-    // {
-    //   day: "day 7",
-    //   guiltyFreeday: true,
-    //   print: true,
-    // },
   ],
   [
     {
@@ -117,7 +112,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -156,17 +151,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 7",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -202,7 +192,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -241,17 +231,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 14",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -287,7 +272,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -326,17 +311,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 7",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -372,7 +352,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -411,17 +391,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 27",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -457,7 +432,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -496,17 +471,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 34",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -542,7 +512,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -581,17 +551,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 41",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -627,7 +592,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -666,17 +631,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 48",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -712,7 +672,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -751,17 +711,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 55",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -797,7 +752,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -836,17 +791,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 62",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -882,7 +832,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -921,17 +871,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 69",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
   [
@@ -967,7 +912,7 @@ const weeks = [
       secoundBreakfast: { text: "Grilled Steak (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
@@ -1006,17 +951,12 @@ const weeks = [
       secoundBreakfast: { text: "Garlic Lime Chicken (HC)", checked: false },
       dinner: { text: "Bod-e Shake", checked: false },
       snack: {
-        text: "Bod-e Burn and Whole_wheat English Muffin with Butter Spray",
+        text: "Bod-e Burn and Whole wheat English Muffin with Butter Spray",
         checked: false,
       },
       supper: { text: "Garlic Lime Chicken (HC)", checked: false },
       dietType: "high-carb",
       workoutDone: true,
-    },
-    {
-      day: "day 76",
-      guiltyFreeday: true,
-      print: true,
     },
   ],
 ];

@@ -1,8 +1,9 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import styles from "./Callendar.module.scss";
 import TitleColumn from "./TitleColumn/TitleColumn";
 import DayColumn from "./DayColumn/DayColumn";
 import FreeDayColumn from "./FreeDayColumn/FreeDayColumn";
+import Header from "../Header/Header";
 
 import workout from "../../icons/ball-grey.png";
 import check from "../../icons/check-orange.png";
@@ -13,7 +14,9 @@ import { DataContext } from "../../contexts/DataContext";
 
 const Callendar = () => {
   const data = useContext(DataContext);
-  const mappedWeek = data[0]?.map((el) => {
+  const [week, setWeek] = useState(0);
+
+  const mappedWeek = data[week]?.map((el) => {
     return (
       <DayColumn
         workout={workout}
@@ -25,11 +28,14 @@ const Callendar = () => {
   });
 
   return (
-    <div className={styles.callendar__container}>
-      <TitleColumn />
-      {mappedWeek}
-      <FreeDayColumn printer={printer} smile={smile} />
-    </div>
+    <>
+      <Header setWeek={setWeek} week={week} />
+      <div className={styles.callendar__container}>
+        <TitleColumn />
+        {mappedWeek}
+        <FreeDayColumn printer={printer} smile={smile} />
+      </div>
+    </>
   );
 };
 

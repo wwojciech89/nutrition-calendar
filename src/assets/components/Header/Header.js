@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import styles from "./Header.module.scss";
 import Button from "./Button/Button";
 import FoodSelector from "./FoodSelector/FoodSelector";
 import WeekButton from "./WeekButton/WeekButton";
+import { DataContext } from "../../contexts/DataContext";
 
 import leftArrow from "../../icons/arrow-left.png";
 import rightArrow from "../../icons/arrow-right.png";
@@ -18,8 +19,12 @@ import riceGrey from "../../icons/rice-grey.png";
 import riceGreen from "../../icons/rice-green.png";
 import dot from "../../icons/dot-grey.png";
 
-const Header = () => (
-  <>
+const Header = ({ week, setWeek }) => {
+  const data = useContext(DataContext);
+
+  console.log(data.length);
+
+  return (
     <div className={styles.header__wrapper}>
       <div className={styles.progress__container}>
         <p>YOUR 12 WEEK PROGRESS</p>
@@ -39,9 +44,19 @@ const Header = () => (
         </div>
       </div>
       <div className={styles.week__container}>
-        <Button direction={leftArrow} />
-        <h1>Week 7</h1>
-        <Button direction={rightArrow} />
+        <Button
+          direction={leftArrow}
+          handleClick={() => {
+            setWeek(week - 1);
+          }}
+        />
+        <h1>Week {week + 1}</h1>
+        <Button
+          direction={rightArrow}
+          handleClick={() => {
+            setWeek(week + 1);
+          }}
+        />
       </div>
       <div className={styles.selector__container}>
         <p>SELECT YOUR PROTEIN OPTIONS</p>
@@ -54,7 +69,7 @@ const Header = () => (
         </div>
       </div>
     </div>
-  </>
-);
+  );
+};
 
 export default Header;
