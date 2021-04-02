@@ -17,10 +17,8 @@ import pizzaGrey from "../../icons/pizza-grey.png";
 import pizzaGreen from "../../icons/pizza-green.png";
 import riceGrey from "../../icons/rice-grey.png";
 import riceGreen from "../../icons/rice-green.png";
-import dot from "../../icons/dot-grey.png";
 
 const Header = ({ week, setWeek }) => {
-  console.log(week);
   const data = useContext(DataContext);
 
   const handlePreviousWeekClick = () => {
@@ -40,18 +38,18 @@ const Header = ({ week, setWeek }) => {
       <div className={styles.progress__container}>
         <p>YOUR 12 WEEK PROGRESS</p>
         <div className={styles.dots__container}>
-          <WeekButton dot={dot} number="1" />
-          <WeekButton dot={dot} number="2" />
-          <WeekButton dot={dot} number="3" />
-          <WeekButton dot={dot} number="4" />
-          <WeekButton dot={dot} number="5" />
-          <WeekButton dot={dot} number="6" />
-          <WeekButton dot={dot} number="7" />
-          <WeekButton dot={dot} number="8" />
-          <WeekButton dot={dot} number="9" />
-          <WeekButton dot={dot} number="10" />
-          <WeekButton dot={dot} number="11" />
-          <WeekButton dot={dot} number="12" />
+          <WeekButton number="1" week={week} />
+          <WeekButton number="2" week={week} />
+          <WeekButton number="3" week={week} />
+          <WeekButton number="4" week={week} />
+          <WeekButton number="5" week={week} />
+          <WeekButton number="6" week={week} />
+          <WeekButton number="7" week={week} />
+          <WeekButton number="8" week={week} />
+          <WeekButton number="9" week={week} />
+          <WeekButton number="10" week={week} />
+          <WeekButton number="11" week={week} />
+          <WeekButton number="12" week={week} />
         </div>
       </div>
       <div className={styles.week__container}>
