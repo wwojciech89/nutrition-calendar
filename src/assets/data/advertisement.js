@@ -3,38 +3,44 @@ const ads = [
     title: "Running out of products?",
     text:
       "Lorem ipsum dolar sit amet, consect turadipscing elit. Integer aliquet.",
-    button: {
-      type: "buy",
-      text: "Buy Now",
-      url: "#",
-    },
     position: "left",
+    buttons: [
+      {
+        type: "buy",
+        text: "Buy Now",
+        url: "#",
+      },
+    ],
   },
   {
     title: "Bod-e Trainer in your pocket",
     text:
       "Lorem ipsum dolar sit amet, consect turadipscing elit. Integer aliquet.",
-    button: {
-      type: "apple",
-      text: "iOS",
-      url: "#",
-    },
-    button2: {
-      type: "android",
-      text: "Android",
-      url: "#",
-    },
+    buttons: [
+      {
+        type: "apple",
+        text: "iOS",
+        url: "#",
+      },
+      {
+        type: "android",
+        text: "Android",
+        url: "#",
+      },
+    ],
   },
   {
     title: "Frequently Asked Questions",
     text:
       "Lorem ipsum dolar sit amet, consect turadipscing elit. Integer aliquet.",
-    button: {
-      type: "buy",
-      text: "Buy Now",
-      url: "#",
-    },
     position: "right",
+    buttons: [
+      {
+        type: "buy",
+        text: "Buy Now",
+        url: "#",
+      },
+    ],
   },
 ];
 

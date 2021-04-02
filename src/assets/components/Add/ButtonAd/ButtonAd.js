@@ -4,9 +4,6 @@ import apple from "../../../icons/apple.png";
 import android from "../../../icons/android.png";
 
 const ButtonAd = ({ button }) => {
-  console.log(button.type);
-  console.log(android);
-
   let icon = () => {
     if (button.type === "android") {
       return android;
@@ -14,7 +11,6 @@ const ButtonAd = ({ button }) => {
       return apple;
     }
   };
-  console.log(icon);
   return (
     <>
       <a href={button.url} className={styles.wrapper}>

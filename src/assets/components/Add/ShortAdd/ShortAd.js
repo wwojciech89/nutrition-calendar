@@ -3,16 +3,10 @@ import styles from "./ShortAd.module.scss";
 import ButtonAdd from "../ButtonAd/ButtonAd";
 
 const ShortAd = ({ data }) => {
-  const secondButton = () => {
-    if (data.button2) {
-      return (
-        <>
-          <ButtonAdd button={data.button2} />
-        </>
-      );
-    } else {
-      return;
-    }
+  const addButtons = () => {
+    return data.buttons.map((el, index) => (
+      <ButtonAdd key={index} button={el} />
+    ));
   };
 
   const specifyPosition = () => {
@@ -30,10 +24,7 @@ const ShortAd = ({ data }) => {
       <div className={specifyPosition()}>
         <h3>{data.title}</h3>
         <p>{data.text}</p>
-        <div className={styles.button__container}>
-          <ButtonAdd button={data.button} />
-          {secondButton()}
-        </div>
+        <div className={styles.button__container}>{addButtons()}</div>
       </div>
     </>
   );
