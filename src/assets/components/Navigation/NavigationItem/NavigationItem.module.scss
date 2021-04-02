@@ -6,4 +6,26 @@
   text-align: center;
   margin: auto;
   font-weight: 500;
+  transition: all 0.1s linear;
+}
+
+.item__wrapper:hover {
+  color: #ff801a;
+  cursor: pointer;
+}
+
+.item__wrapper::after {
+  color: #ff801a;
+  cursor: pointer;
+  transition: all 0.1s linear;
+  width: 13px;
+  margin: 8px auto;
+  display: block;
+  content: "";
+}
+
+.item__wrapper:hover::after {
+  border-bottom: #ff801a 2px solid;
+  transform: scale(2);
+  cursor: pointer;
 }
