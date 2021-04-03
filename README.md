@@ -1,10 +1,10 @@
-##Nutrition Calendar
+## Nutrition Calendar
 
 
 
 Technologies used to create the App: HTML, SCSS Modules, JavaScript, React.
 
-###About Project:
+### About Project:
 
 Project for recruiment to ones of the IT company.
 Deadline: 1 week;
